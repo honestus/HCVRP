@@ -1,0 +1,4 @@
+solver: CBC   #solver to be used for resolution (allowed_values: GLPK, CBC)
+maxTime: 5 #max time(in seconds) to solve the actual problem
+relax: False #Boolean. if set to True and solver 'GLPK', the cuts parameters chosen for "relaxMethods" are used
+relaxMethods: cuts #if 'relax' True, states the cuts parameters to be used by GLPK(if it's the solver actually used)

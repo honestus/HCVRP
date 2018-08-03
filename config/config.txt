@@ -1,0 +1,11 @@
+clients: 7  #Integer. Number of clients: must be <=100!
+min_avg_req: 0.4  #Float (0<min_avg_req<=1). Minimum average request with respect to the V1(ie: largest/most capacious vehicle) capacity.
+max_avg_req: 0.4   #Float (0<max_avg_req<=1.5). Maximum average request with respect to the V1(ie: largest/most capacious vehicle) capacity.
+capacity: 100   #Integer. V2(ie: smallest/least capacious vehicle) capacity.
+V1_percent: 0.4   #Float (0<=V1<=1). Percentage of most capacious vehicles with respect to the number of total vehicles(ie: n° of V1+ n° of V2)
+min_num_vehicles: 1.5   #Float(min_num_vehicles>1). Multiplier of min number of vehicles with respect to the estimated minimum feasible number of vehicles to handle the total request.
+max_num_vehicles: 2   #Float(max_num_vehicles>1 and max_num_vehicles>=min_num_vehicles). Multiplier of min number of vehicles with respect to the estimated minimum feasible number of vehicles to handle the total request.
+var: 0.8 #Float. Variance of distribution of average clients requests
+min_req: 0.1   #Float (0<min_req<=1). Minimum feasible request from any client with respect to the average clients request.
+V1_cost: 1 #Float. Unitary V1 vehicle cost
+V2_cost: 0.75 #Float. Unitary V2 vehicle cost
