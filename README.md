@@ -31,7 +31,7 @@ It is written in Python and to run it requires:
 To execute it, you can insert up to two parameters, the first one indicating the filename to load instances already generated (or the configuration file to generate them), the second one indicating the filename to save the instances and the problems.
 If no parameters are used, a new instance is generated using the settings loaded from the configuration file (<b>config.txt</b>), then, after defining a new model for it, it'll be run using the parameters specified in the solver configuration file (<b>solverconf.txt</b>).
 To modify the solver or instance parameters, it is necessary to manually change files solverconf.txt or config.txt, inside the directory config.
-For what concerns <b><i>solverconf.txt</i></b>, please note that the only available values for <i>solver</i> are 'CBC' or 'GLPK'; then for the <i>relax</i> parameter you've to use 'True'or 'False'; finally, for <i>relaxMethods</i> please list the parameters('mir', 'gomory', 'cover' or 'clique') to use, separated by a comma (e.g. 'mir,gomory').
+For what concerns solverconf.txt, please note that the only available values for <i>solver</i> are 'CBC' or 'GLPK'; then for the <i>relax</i> parameter you've to use 'True'or 'False'; finally, for <i>relaxMethods</i> please list the parameters('mir', 'gomory', 'cover' or 'clique') to use, separated by a comma (e.g. 'mir,gomory').
 
 Examples
 
