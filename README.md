@@ -19,7 +19,7 @@ It is written in Python and to run it requires:
 * config - contains the configurations files
 * data - 60 different initial (VRP) instances
 * doc - documentation
-* instances - (HCVRP) instances already generated
+* instances - (HCVRP) generated instances (ie: set vehicle V1 capacity, vehicle V2 capacity, n° of vehicles, n° of V1 vehicles, n° of V2 vehicles, n° of clients, request for each client and distance matrix)
 * problems - HCVRP models defined (and eventually solved) for a given instance
 * src - source files
 
