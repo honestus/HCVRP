@@ -2,7 +2,7 @@
 
 This project is realized for educational purposes and it deals to generate/load instances suitable for HCVRP and to solve them, using the CBC solver or the GLPK one, through the PuLP module.
 
-## Project explanation and constraints ##
+## Project description and constraints ##
 A logistic company has to organize the short-haul distribution of goods from its central depot to a set of customers in the same city/region; this can be represented by a directed graph with a node for the depot and one for each customer, and two directed arcs for each pair of nodes, in both directions, labeled with the distance between the two (which can be different between the two directions due to one-way streets). The company has a given supply of vehicles stationed at the deposit, of two different sizes: the small-size one carrying half of the total maximum amount of goods as the large-size one. However, it is assumed that goods are “flexible” enough so that they can always be arranged in the vehicle provided that their total amount does not exceed the capacity. Each customer requires a certain amount of goods, and has to be serviced by at most one vehicle of each type (and, clearly, at least by one vehicle). The problem is to serve all the customer at minimal total cost, which is (proportional to) the total distance traveled by all the vehicles and to a factor that depends on the type of the vehicle; in particular, the per-km cost of small-size ones is 75% of the cost of large-size ones.
 
 ## Tools and Python packages needed ##
